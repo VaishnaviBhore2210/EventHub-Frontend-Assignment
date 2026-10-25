@@ -97,6 +97,7 @@ http://localhost:5173/
 
 ## Demo Video
 
+https://drive.google.com/file/d/1-F4V7oYie3wxrD3_EdHI8pjnqk9JFcNg/view
 The project demonstration video is available in the `demo` folder of this repository.
 
 Video: `demo/EventHub-Demo.mp4`
