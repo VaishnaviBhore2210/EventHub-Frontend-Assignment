@@ -1,29 +1,114 @@
-# EventHub — Event & Workshop Management Portal
+# EventHub – Event Management Web Application
 
-A beginner-friendly React frontend assignment project built with Vite, React Router, Bootstrap, React Icons, and browser Local Storage.
+## Project Overview
+
+EventHub is a web application developed using React.js and Vite. It provides an interface for browsing events, viewing event details, registering for events, and managing event information through administrative pages.
+
+## Technologies Used
+
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- Vite
 
 ## Features
-- Responsive event listing with search, category filtering, and date sorting
-- Event details page
-- Registration form with basic validation and duplicate-registration prevention per event/email
-- Registration confirmation page
-- Dynamic seat count updates
-- Admin dashboard with event and registration counts
-- Create, edit, and delete events
-- Local Storage persistence in the current browser
 
-## Run locally
-1. Install Node.js LTS.
-2. Open this folder in VS Code.
-3. In the terminal run:
-   ```bash
-   npm install
-   npm run dev
-   ```
-4. Open the local URL shown in the terminal (usually `http://localhost:5173`).
+- Browse and explore available events.
+- View event details, including date, time, venue, category, and available seats.
+- Register for events through a registration form.
+- View a registration success page.
+- Access an administrative dashboard.
+- Manage event information through the event management interface.
+- Organize event information using reusable React components and pages.
 
-## Notes and limitations
-- This is a frontend demo. It has no backend, database, secure admin login, or server-side duplicate-registration protection.
-- Local Storage is tied to the current browser and origin. Clearing browser data can remove saved events and registrations.
-- Sample event images require an internet connection.
-- Use a backend and database before using this for real registrations or personal information.
+## Project Structure
+
+```text
+EventSpace_Project/
+├── demo/
+│   └── EventHub-Demo.mp4
+├── src/
+│   ├── components/
+│   ├── data/
+│   │   └── events.js
+│   ├── pages/
+│   │   ├── AdminDashboard.jsx
+│   │   ├── EventDetails.jsx
+│   │   ├── Home.jsx
+│   │   ├── ManageEvents.jsx
+│   │   ├── Register.jsx
+│   │   └── RegistrationSuccess.jsx
+│   ├── utils/
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── .gitignore
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── README.md
+```
+
+## Prerequisites
+
+Before running the project, install:
+
+- Node.js
+- npm (included with Node.js)
+- Visual Studio Code or another code editor
+
+## How to Run the Project
+
+### Step 1: Clone the Repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/EventHub-Frontend-Assignment.git
+```
+
+Replace `YOUR_USERNAME` with your GitHub username.
+
+### Step 2: Open the Project Folder
+
+```bash
+cd EventHub-Frontend-Assignment
+```
+
+If your repository contains the project directly at its root, continue to the next step.
+
+### Step 3: Install Dependencies
+
+```bash
+npm install
+```
+
+### Step 4: Start the Development Server
+
+```bash
+npm run dev
+```
+
+### Step 5: Open the Application
+
+Open the local URL shown in your terminal. The default Vite development URL is usually:
+
+http://localhost:5173/
+
+## Demo Video
+
+The project demonstration video is available in the `demo` folder of this repository.
+
+Video: `demo/EventHub-Demo.mp4`
+
+## Notes
+
+- The event data is currently defined in `src/data/events.js`.
+- This repository contains the frontend implementation.
+- The application's data persistence and registration behavior depend on the functionality implemented in the source code.
+
+## Author
+
+Vaishnavi Vijay Bhore
+
+Frontend Developer Candidate
